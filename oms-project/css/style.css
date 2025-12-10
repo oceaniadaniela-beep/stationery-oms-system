@@ -1,0 +1,33 @@
+/* Toast */
+body {
+    background-color: #bd0f7a;
+}
+
+#toast {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #bd0f7a;
+    color: #fff;
+    padding: 8px 16px;
+    border-radius: 6px;
+    z-index: 9999;
+}
+
+/* Modal */
+.modal {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-content {
+    background: #fff;
+    padding: 20px;
+    border-radius: 6px;
+    width: 400px;
+}
